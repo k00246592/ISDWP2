@@ -8,14 +8,14 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/loginCSS.css">
+        <link rel="stylesheet" href="css/adminproductCss.css">
         
 
         
     </head>
 
 <body>
-    <div class="header">
+  <div class="header">
         <div class="container">
             
                 <div class="navbar-header">
@@ -47,23 +47,34 @@
 
     <div class="parallax-content baner-content" id="home">
         <div class="container">
-          <form action="/action_page.php" method="post">
+          <form action="adminHome.html" method="post">
 
 
   <div class="container">
-      <h1> Login To Your Account</h1>
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+      <h1> Add New Product</h1>
+    <label for="pname"><b>Product Name</b></label>
+    <input type="text"  name="pname" required>
+    
+    <label for="pid"><b>Product ID</b></label>
+    <input type="text"  name="pid" required>
+    
+    <label for="desc"><b>Product Description</b></label>
+    <input type="text"  name="desc" required>
+    
+    <label for="amount"><b>Amount Available</b></label>
+    <input type="number"  name="amount" required>
+    
+    <label for="price"><b>Product Price</b></label>
+    <input type="number"  name="price" required>
+    
+    <label for="pic"><b>Add Product Image</b></label>
+    <input type="file"  name="pic" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    
         
-    <button type="submit">Login</button>
-    <p></p>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-    <p id="account">Not a Member? <a href="Register.html">Register</a></p>
+    <button type="submit">Add Product</button>
+  
+  
   </div>
 
  
@@ -107,7 +118,11 @@
             </div>
         </div>
     </footer>
-<a id="bottom"></a>
-   
+
+   <a id="bottom"></a>
 </body>
 </html>
+
+
+
+

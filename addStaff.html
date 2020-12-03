@@ -8,14 +8,14 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/loginCSS.css">
+        <link rel="stylesheet" href="css/adminproductCss.css">
         
 
         
     </head>
 
 <body>
-    <div class="header">
+  <div class="header">
         <div class="container">
             
                 <div class="navbar-header">
@@ -42,28 +42,37 @@
         </div>
        
     </div>
-   
 
 
     <div class="parallax-content baner-content" id="home">
         <div class="container">
-          <form action="/action_page.php" method="post">
+          <form action="adminHome.html" method="post">
 
 
   <div class="container">
-      <h1> Login To Your Account</h1>
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+      <h1> Add New Staff Member</h1>
+    <label for="ename"><b>Employee Name</b></label>
+    <input type="text"  name="ename" required>
+    
+    <label for="add"><b>Employee Address</b></label>
+    <input type="text"  name="add" required>
+    
+    <label for="email"><b>Employee Email</b></label>
+    <input type="email"  name="email" required>
+    
+    <label for="tel"><b>Employee Telephone</b></label>
+    <input type="tel"  name="tel" required>
+    
+    <label for="dob"><b>Date Of Birth</b></label>
+    <input type="date"  name="dob" required>
+    
+   
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    
         
-    <button type="submit">Login</button>
-    <p></p>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-    <p id="account">Not a Member? <a href="Register.html">Register</a></p>
+    <button type="submit">Add Staff Member</button>
+  
+  
   </div>
 
  
@@ -111,3 +120,8 @@
    
 </body>
 </html>
+
+
+
+
+

@@ -21,6 +21,7 @@ and open the template in the editor.
             }
 
             #searchfield {
+                
                 box-sizing: content-box;
                 font-size: 100%;
                 font-family: inherit;
@@ -28,17 +29,18 @@ and open the template in the editor.
             }
 
             #searchfield {
+                margin-left: 10%;
                 background: #eee;
                 border: solid 1px #999;
                 border-radius: 3px;
 
                 padding: 4px 5px 4px 5px;
-                width: 6em;
+                width: 8em;
 
                 transition: all .3s;
             }
   #searchfield:focus {
-                width: 30em;
+                width: 23em;
                 background-color: #fff;
                 border-color: #74abff;
 
@@ -70,6 +72,7 @@ and open the template in the editor.
 	font-size: 22px;
 	position: relative;
 	top: 20px;
+        
 }
 /* Content holder for products in catalog*/
 .productRow .productInfo .productContent {
@@ -81,6 +84,7 @@ and open the template in the editor.
 	font-weight: 200;
 	color: black;
 	white-space: pre-wrap;
+        
 }
 /* Buy button for products in catalog */
 .productRow .productInfo .buyButton {
@@ -94,6 +98,7 @@ and open the template in the editor.
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 25px;
+        border: 1px solid black;
 }        
             
             
@@ -163,7 +168,11 @@ p {
 	padding: 0px;
 	letter-spacing: 0.5px;
 }
-
+.navbar-nav a:hover{
+    background-color: #ddd;
+  color: black;
+    
+}
 .navbar-nav>li {
 	margin-left: 45px;
 }
@@ -172,9 +181,7 @@ p {
     .header .navbar-brand {
         padding-left: 0;
     }
-    .navbar-nav {
-        float: right;
-    }
+    
 }
 @media (max-width: 480px) {
     .page-section h1 {
@@ -198,10 +205,18 @@ p {
   	vertical-align: middle;
 }
 
+
 #logoImg {
 	
-	max-height: 50px;
+	max-height: 90px;
 	padding:2px;
+	
+}
+
+#logoImg2 {
+	
+	max-height: 150px;
+	
 	margin-top: 15px;
 }
 
@@ -226,10 +241,15 @@ p {
 	margin-top: 25px;
 }
 
+.productRow{
+    margin-left: 10%;
+    margin-top: -100px;
+}
 
 
-
-
+.mainContent img{
+    border: 2px solid black;
+}
 
 
 
@@ -350,9 +370,7 @@ button {
   width: 25%;
 }
 
-.container {
-  padding: 16px;
-}
+
 #account {
     color:white;
 }

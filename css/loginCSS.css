@@ -20,6 +20,8 @@ and open the template in the editor.
             }
 
             #searchfield {
+                
+                margin-left: 10%;
                 background: #eee;
                 border: solid 1px #999;
                 border-radius: 3px;
@@ -30,7 +32,7 @@ and open the template in the editor.
                 transition: all .3s;
             }
   #searchfield:focus {
-                width: 30em;
+                width: 23em;
                 background-color: #fff;
                 border-color: #74abff;
 
@@ -89,7 +91,11 @@ p {
 	padding: 0px;
 	letter-spacing: 0.5px;
 }
-
+.navbar-nav a:hover{
+    background-color: #ddd;
+  color: black;
+    
+}
 .navbar-nav>li {
 	margin-left: 45px;
 }
@@ -98,9 +104,7 @@ p {
     .header .navbar-brand {
         padding-left: 0;
     }
-    .navbar-nav {
-        float: right;
-    }
+
 }
 @media (max-width: 480px) {
     .page-section h1 {
@@ -124,13 +128,20 @@ p {
   	vertical-align: middle;
 }
 
+
 #logoImg {
 	
-	max-height: 50px;
+	max-height: 90px;
 	padding:2px;
-	margin-top: 15px;
+	
 }
 
+#logoImg2 {
+	
+	max-height: 150px;
+	
+	margin-top: 15px;
+}
 .baner-content .text-content {
 	text-align: center;
 }
@@ -253,11 +264,12 @@ footer .contact-info ul li em {
 
 
 /*Login Form*/
-form {border: 3px solid #383d39;
+form{border: 3px solid #383d39;
 background-color: #383d39;
 color: white;}
 
 input[type=text], input[type=password] {
+  color: black;
   width: 94%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -276,9 +288,7 @@ button {
   width: 25%;
 }
 
-.container {
-  padding: 16px;
-}
+
 #account {
     color:white;
 }
