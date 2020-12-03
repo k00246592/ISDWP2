@@ -275,9 +275,10 @@ footer .contact-info ul li em {
 /*Login Form*/
 form {border: 3px solid #383d39;
 background-color: #383d39;
-color: white;}
+color: white;
+margin-top: -226px;}
 
-input[type=text], input[type=password], input[type=email] {
+input[type=text], input[type=number], input[type=file], input[type=email], input[type=date], input[type=password], input[type=tel] {
   color: black;
   width: 94%;
   padding: 12px 20px;
